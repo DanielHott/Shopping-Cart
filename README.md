@@ -4,7 +4,7 @@ Neste projeto é utilizado javascript puro para desenvolver uma tela de e-commer
 
 O projeto consome uma API do Mercado Livre `https://api.mercadolibre.com/items/${id}` que permite pesquisar pelo id da categoria do produto.
 
-Utiliza recursos como window.onload, functions, fetch API, e possui testes via cypress.
+Utiliza recursos como window.onload, functions, fetch API, e muita lógica.
 
 Foi feito a pedido da Trybe como um exercicio para construção de páginas utilizando javascript vanilla, HTML e CSS.
 
