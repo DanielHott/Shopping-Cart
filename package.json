@@ -1,9 +1,12 @@
 {
-  "name": "sd-0x-project-shopping-cart",
+  "homepage": "https://danielhott.github.io/Shopping-Cart",
+  "name": "shopping-cart",
   "version": "1.0.0",
-  "description": "Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
+  "description": "Projeto proposto pela trybe para melhora no HTML e Javascript puro",
   "main": "script.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "cypress run",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
@@ -18,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/betrybe/sd-0x-block10-project-shopping-cart/issues"
   },
-  "homepage": "https://github.com/betrybe/sd-0x-block10-project-shopping-cart#readme",
   "dependencies": {
     "cypress": "4.3.0",
     "cypress-multi-reporters": "1.2.4",
@@ -31,5 +33,8 @@
     "mochawesome-report-generator": "4.1.0",
     "stylelint": "13.8.0",
     "stylelint-config-standard": "20.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
