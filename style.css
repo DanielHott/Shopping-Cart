@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  border: 2px solid rgb(255, 123, 0);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 200px;
+  margin-left: 15px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 5px;
+  transition: all 0.3s ease-out;
+  background-color: rgb(255, 255, 255);
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.item_img {
+
+  background-color: white;
+}
+
+.item .item__sku {
+  display: none;
+}
+
+.item .item__title {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.item .item__image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .item__add {
+  background-color: rgb(255, 123, 0);
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+}
+
+.cart {
+  display: flex;
+  flex-basis: 30%;
+  flex-flow: column;
+  margin-right: 35px;
+  margin-top: 5px;
+}
+
+.cart .cart__title {
+  flex-basis: 1;
+  font-size: 16pt;
+  text-align: center;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.loading {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.empty-cart {
+  background-color: rgb(255, 123, 0);
+  border: 1px solid rgb(134, 133, 133);
+}
+
+.cart__item {
+  color:rgb(0, 0, 0);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+#cart__item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+}
+
+#header {
+  background-color: rgb(255, 123, 0);
+  border: 2px solid rgb(255, 123, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+#imagem-carrinho {
+  width: 60px;
+}
+
+.item_img {
+  width: 100px;
+  flex-wrap: wrap;
+}
+
+#black-friday {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+
+#ns {
+  width: 300px;
+}
+
+#title {
+  color:white;
+  text-align:center
+}
