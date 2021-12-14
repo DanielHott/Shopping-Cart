@@ -20,11 +20,9 @@ Utiliza recursos como window.onload, functions, fetch API, e muita lógica.
 
 Foi feito a pedido da Trybe como um exercicio para construção de páginas utilizando:
 
--Javascript 
-
+-Javascript
 -HTML
-
--CSS.
+-CSS
 
 Ainda falta implementar a lógica na barra de pesquisas.
 
