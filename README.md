@@ -19,6 +19,7 @@ Utiliza recursos como window.onload, functions, fetch API, e muita lógica.
 ## Tecnologias utilizadas
 
 Foi feito a pedido da Trybe como um exercicio para construção de páginas utilizando:
+
 -Javascript 
 -HTML
 -CSS.
