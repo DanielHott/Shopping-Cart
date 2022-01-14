@@ -1,9 +1,9 @@
 # Loja online
 
 ## Sobre o projeto:
-https://danielhott.github.io/Shopping-Cart/
+Confira o projeto em: [Shopping Cart](https://danielhott.github.io/Shopping-Cart/)
 
-Neste projeto é utilizado javascript puro para desenvolver uma tela de e-commerce com um carrinho que guarda as preferências do usuário no localStorage e o valor total de itens.
+Um dos meus primeiros projetos em desenvolvimento. Neste projeto é utilizado javascript puro para desenvolver uma tela de e-commerce com um carrinho que guarda as preferências do usuário no localStorage e o valor total de itens. Muito importante para dominar o localStorage
 
 ## Layout web
 
